@@ -1,0 +1,77 @@
+body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.container{
+    margin: auto;
+    max-width: 1400px;
+}
+ul li{
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    margin: 0px 10px;
+    color: #000;
+    margin-bottom: 2px;
+}
+ul li:hover{
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+h1{
+    text-align: center;
+    font-size: 45pt;
+    margin-bottom: 0;
+}
+h4{
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 0;
+    font-weight: 500;
+}
+#biografia{
+    padding: 10px;
+}
+p{
+    max-width: 800px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+img{
+    border:5px solid #fff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px #888;
+}
+#img_bio, #img_zumbi{
+    margin-left: 20px;
+}
+#img_quilombo, #img_monumento{
+    margin-right: 20px;
+}
+#img_monumento{
+    max-width: 700px;
+}
+hr{
+    color:#ddd;
+}
+.footer{
+    background-color: #555;
+    margin-top: 20px;
+    height: 40px;
+}
+.footer-center{
+    margin: auto;
+    max-width: 1400px;
+    color: #888;
+    display: flex;
+    align-items:center;
+    height: 40px;
+    font-size: 10pt;
+}
+.footer-center a{
+    color: #888;
+}
